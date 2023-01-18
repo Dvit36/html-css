@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Cordel';
+    src: url('../../fonts/xilosa_.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1:hsla(10, 60%, 77%, 0.300);
+    --cor2:#E2725B;
+    --cor3:#C96551;
+    --cor4:#A35241;
+    --cor5:#633228;
+    
+    --fonte-padrão: 'Sriracha', cursive;
+    --fonte-destaque: 'Cordel';
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cor3);
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    
+
+    margin: 0%;
+    text-align: center;
+    padding: 20px;
+}
+    
+    
+
+header > h1{
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+}
+
+header > p {
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+article{
+    font-family: var(--fonte-padrão);
+    font-size: 1.3em;
+    font-weight: bold;
+
+    background-color: var(--cor1);
+    padding: 60px 200px 60px 40px;
+    line-height: 40px;
+}
+
+#flor{
+    background-color: darkgreen;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+
+    height: 450px;
+    width: auto;
+
+    position: relative;
+}
+
+div > #flortxt{
+    font-family: var(--fonte-padrão);
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.400);
+
+    padding: 10px;
+    left: 5%;
+    top: 20%;
+    line-height: 40px;
+
+    position: absolute;
+}
+
+#cartas{
+    background-color: var(--cor1);
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+
+    height: 450px;
+    width: auto;
+
+    position: relative;
+}
+
+div > #cartxt{
+    font-family: var(--fonte-padrão);
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.400);
+
+    padding: 10px;
+    left: 5%;
+    top: 20%;
+    line-height: 40px;
+
+    position: absolute;
+}
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    padding: 5px;
+    font-family: var(--fonte-header);
+    text-align: center;
+    font-weight: bold
+}
