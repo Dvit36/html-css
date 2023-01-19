@@ -33,7 +33,7 @@ header{
     background-color: var(--cor3);
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 2em;
+    font-size: 4vw;
     
 
     margin: 0%;
@@ -66,11 +66,11 @@ header > p > a:hover {
 
 article{
     font-family: var(--fonte-padrão);
-    font-size: 1.3em;
+    font-size: 2.5vw;
     font-weight: bold;
 
     background-color: var(--cor1);
-    padding: 60px 200px 60px 40px;
+    padding: 60px 200px 60px 30px;
     line-height: 40px;
 }
 
@@ -79,6 +79,7 @@ article{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-position: right center;
+    background-attachment: fixed;
 
     height: 450px;
     width: auto;
@@ -88,7 +89,7 @@ article{
 
 div > #flortxt{
     font-family: var(--fonte-padrão);
-    font-size: 1.3em;
+    font-size: 2.5vw;
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
@@ -106,6 +107,7 @@ div > #flortxt{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-position: right center;
+    background-attachment: fixed;
 
     height: 450px;
     width: auto;
@@ -115,12 +117,12 @@ div > #flortxt{
 
 div > #cartxt{
     font-family: var(--fonte-padrão);
-    font-size: 1.3em;
+    font-size: 2.5vw;
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
 
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     left: 5%;
     top: 20%;
     line-height: 40px;
