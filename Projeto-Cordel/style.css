@@ -64,7 +64,7 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
-article{
+section{
     font-family: var(--fonte-padrão);
     font-size: 2.5vw;
     font-weight: bold;
@@ -80,26 +80,13 @@ article{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-
-    height: 450px;
-    width: auto;
-
-    position: relative;
 }
 
-div > #flortxt{
-    font-family: var(--fonte-padrão);
-    font-size: 2.5vw;
-    font-weight: bold;
+#flortxt{
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
 
-    padding: 10px;
-    left: 5%;
-    top: 20%;
-    line-height: 40px;
-
-    position: absolute;
+    max-width: fit-content;
 }
 
 #cartas{
@@ -108,26 +95,13 @@ div > #flortxt{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-
-    height: 450px;
-    width: auto;
-
-    position: relative;
 }
 
-div > #cartxt{
-    font-family: var(--fonte-padrão);
-    font-size: 2.5vw;
-    font-weight: bold;
+#cartxt{
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
-
-    padding: 0px 10px 0px 10px;
-    left: 5%;
-    top: 20%;
-    line-height: 40px;
-
-    position: absolute;
+   
+    max-width: fit-content;    
 }
 
 footer{
